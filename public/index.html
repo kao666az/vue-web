@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>White Rose Laundry :ร้าน WHITE ROSE ยินดีให้บริการ ซักแห้ง ซักอบรีด ระดับ Premium ด้วยเทคโนโลยี
+    ของการทำความสะอาดผ้า และผลิตภัณฑ์ที่มีคุณภาพ ไม่ระคายเคืองแม้ผิวแพ้ง่าย
+    อบรมผู้สนใจธุรกิจนี้เพื่อส่งต่อความเป็นมืออาชีพ
+    ติดต่อสอบถามข้อมูลเพิ่มเติม 02-361-9380, 081-849-2230</title>
+  <meta name="keywords"
+    content="ซักแห้ง,ซัก อบ รีด,ซักรีด,Laundry Locker Service,อบรมซักรีดแบบตัวต่อตัว,ร้าน WHITE ROSE ไวท์โรส,whiteroselaundry" />
+  <meta name="description" content=" ร้าน WHITE ROSE ยินดีให้บริการ ซักแห้ง ซักอบรีด ระดับ Premium ด้วยเทคโนโลยี ของการทำความสะอาดผ้า และผลิตภัณฑ์ที่มีคุณภาพ ไม่ระคายเคืองแม้ผิวแพ้ง่าย อบรมผู้สนใจธุรกิจนี้เพื่อส่งต่อความเป็นมืออาชีพ
+ติดต่อสอบถามข้อมูลเพิ่มเติม 02-361-9380, 081-849-2230" />
+  <meta name="distribution" content="Thailand" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="robots" content="index,follow" />
+
+  <link rel="shortcut icon" href="~@/assets/images/logo.ico" />
+  <!-- Bootstrap -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/media768px-style.css" rel="stylesheet">
+  <link href="css/media992px-style.css" rel="stylesheet">
+  <link href="css/media1200px-style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scrollReveal.js"></script>
+  <script type="text/javascript" src="js/scrollreveal.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script>
+    $(function () {
+      window.sr = ScrollReveal();
+      sr.reveal('.sr-icons', {
+        duration: 600,
+        scale: 0.3,
+        distance: '0px'
+      }, 400);
+
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        "auto": true,
+        "pager": true,
+        "controls": true,
+        "speed": 4000,
+        "pause": 5000,
+      });
+
+      $('#bs-example-navbar-collapse-1').on('show.bs.collapse', function () {
+        $('.navbar-default').addClass('-collapse');
+        $('.all-container').addClass('-collapse');
+      })
+      $('#bs-example-navbar-collapse-1').on('hidden.bs.collapse', function () {
+        $('.navbar-default').removeClass('-collapse');
+        $('.all-container').removeClass('-collapse');
+      })
+      window.scrollReveal = new scrollReveal();
+    });
+
+
+  </script>
+  <script id="salesdesk-widget-script" src="https://api-salesdesk.readyplanet.com/js/salesdesk-widget.min.js"
+    type="text/javascript"
+    charset="UTF-8">var salesdesk_params = '{"business_id":"6756485a676314cd22f19df3d4244cb8","phone_number":"+66818492230","line_id":"nucharee5342","facebook_id":"295514753875598","whatsapp_id":"","skype_id":"","language":"th","button_menu":{"background_color":"#2196F3","display_text":"สอบถามโปรโมชั่น คลิก","display_tooltip":"always","display_position_name":"bottom-right","display_position_custom":{"top":0,"left":0,"right":15,"bottom":15}},"use_tracking":["contact_form","click_to_call","line","facebook"],"tracking_config":{"contact_form":{"button_action_name":"แบบฟอร์ม"},"click_to_call":{"button_action_name":"โทรศัพท์"},"line":{"button_action_name":"แชทผ่าน LINE"},"facebook":{"button_action_name":"แชทผ่าน Facebook"},"whatsapp":{"button_action_name":"แชทผ่าน WhatsApp"},"skype":{"button_action_name":"แชทผ่าน Skype"}}}';</script>
+  <!-- <script>
+    function initMap() {
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: new google.maps.LatLng(13.672091, 100.644431),
+        zoom: 13,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+
+      var locations = [['<center><img src="~@/assets/images/logo-map.png" height="30" ><br><b>ร้าน White Rose – ไวท์โรส </b></center>', 13.672091, 100.644431, 1]];
+      var infowindow = new google.maps.InfoWindow();
+      var marker, i; for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+          position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+          map: map
+        });
+
+        google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
+          return function () {
+            infowindow.setContent(locations[i][0]);
+            infowindow.open(map, marker);
+          }
+        })
+          (marker, i));
+      }
+
+    }
+  </script> -->
+  <!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBId6RYaG7TEJF0afHMTR8ixNAtgTfsqdE&callback=initMap"
+    type="text/javascript"></script> -->
+  <!-- ห้ามลบ -->
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

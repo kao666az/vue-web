@@ -1,0 +1,92 @@
+@media (min-width: 768px) {
+	.navbar-default .navbar-brand {
+		font-size: 40px;
+		top:20px;
+		position:absolute;
+	}
+	.line-logo{
+		border-bottom:4px solid #FFF;
+		border-top:0;
+		margin:0;
+	}
+	.nav>li>a {
+		padding: 10px 10px;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: #222222;
+	}
+	.navbar-right {
+		background: #FFF;
+	}
+	.-contact-head{
+		margin:10px 0;
+	}
+	.tagling-head{
+		font-family: 'Pacifico';
+		color:#FFF;
+		font-size: 19px;
+		padding: 15px 0;
+		background-size: 3% !important;
+		 background: url(../images/line-head.png) right center no-repeat;
+	}
+	.color-icon{
+		color:#FFF;
+		font-size:15px;
+	}
+	.callnumber-head{
+		color:#FFF;
+	}
+	.callnumber-head a{
+		color:#FFF;
+	}
+	.follow-head{
+		color:#FFF;
+		text-transform:uppercase;
+	}
+	.welcome-title {
+		font-size: 60px;
+	}
+	.about-box-full{
+		margin:5px 0;
+	}
+	.contact-about{
+		margin:0;
+	}
+	.img-about {
+		padding: 4px 10px;
+	}
+	.service-box {
+		font-size:13px;
+		margin: 20px 0;
+	}
+	.img-service{
+		margin:20px 0;
+	}
+	.service-box.-sevice-left-box{
+		    margin: 20px 0 58px;
+	}
+	.service-box.-sevice-bottom-box{
+		    margin: 35px 0 0;
+	}
+	.addess-footer{
+		font-size:15px;
+		line-height:1.2;
+	}
+	.copyright {
+		line-height: 1;
+		padding-top: 5px;
+	}
+	.contact-footer{
+		line-height:1;
+		padding-bottom:20px;
+	}
+	.copyright.-online-footer{
+		padding-top:8px;
+	}
+	.contact-footer a.-spac-footer {
+		padding-left: 29%;
+	}
+	.bg-gooter-right{
+		background:url(../images/line-footer.png) right 20px no-repeat;
+	}
+}
